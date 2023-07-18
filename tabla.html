@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Primera web</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    
+        <h1>La batalla de Stalingrado</h1>
+
+        <header>
+            <nav>
+                <ul>
+                       <li> <a href="index.html">Home</a></li>
+                       <li><a href="tabla.html">Tabla</a></li>
+                       <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                       <li> <a href="contacto.html">Contacto</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+         <h2 style="margin: 15px;">Tabla para mas Info</h2>
+         <hr>
+
+
+
+         <div class="container">
+            <table>
+                <colgroup>
+                   <col style="background-color: rgb(207, 207, 207);">
+                   <col>
+                   <col>
+                   <col>
+                   <col>
+                </colgroup>
+                
+                <th>Preguntas</th>
+                <th>Respuestas</th>
+
+                <tr>
+                    <td>¿Quién ganó la batalla de Stalingrado y en qué año?</td>
+                    <td>El 31 de enero de 1943, el mariscal de campo alemán Friedrich Paul y su sexto ejército se rinden ante el Ejército Rojo (el ejército de la Unión Soviética).</td>
+                </tr>
+                 
+
+                <tr>
+                    <td>¿Quién se enfrentó en la batalla de Stalingrado?</td>
+                    <td>Ejército Rojo de la Unión Soviética y la Wehrmacht de la Alemania nazi y sus aliados del Eje</td>
+                </tr>
+               
+                <tr>
+                    <td>¿Por que perdieron los alemanes?</td>
+                    <td>Perdieron la guerra por agotamiento, por un problema de suministros de armamento y alimentos que generó el hundimiento del sistema político y social alemán. </td>
+                </tr>
+
+                <tr>
+                    <td>¿Qué significa la palabra Stalingrado?
+                    </td>
+                    <td> Ciudad de Rusia que hasta 1925 se llamó Zarizin y que a partir de 1961 se llama Volgogrado.</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+
+
+
+
+
+
+            </table>
+         </div>
+
+
+        <footer class="footer">
+            <p>Derechos reservados &copy; 2023</p>
+        </footer>
+
+
+</body>
+</html>
